@@ -47,7 +47,7 @@ export const jokesSlice = createSlice({
         state.error = '';
       })
       .addCase(refreshJoke.fulfilled, (state) => {
-        state.loading = true;
+        state.loading = false;
       })
       .addCase(refreshJoke.rejected, (state, action) => {
         state.loading = false;

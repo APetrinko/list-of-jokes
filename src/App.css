@@ -1,6 +1,6 @@
 @import './components/JokeItem/JokeItem.css';
 @import './components/JokesList/JokesList.css';
 
-.App {
+:root {
   background-color: #d9d9d9;
 }

@@ -9,11 +9,11 @@ const JokesList = memo(() => {
   const { jokes, error, loading } = useAppSelector((state: { jokes: JokesState }) => state.jokes);
   const dispatch = useAppDispatch();
 
-    useEffect(() => {
-      const response = axios.get('https://official-joke-api.appspot.com/jokes/ten/')
-      const joke = response.then(res => {
-        dispatch(actions.setJoke(res.data))
-      })
+  useEffect(() => {
+    const response = axios.get('https://official-joke-api.appspot.com/jokes/ten/')
+    const joke = response.then(res => {
+      dispatch(actions.setJoke(res.data))
+    })
   }, [dispatch]);
 
   const handleLoadMore = () => {
@@ -41,7 +41,9 @@ const JokesList = memo(() => {
           />
         ))}
       </div>
-      <button className="load-more" onClick={handleLoadMore}>Load More</button>
+      <div className="button-container">
+        <button className="load-more" onClick={handleLoadMore}>Load More</button>
+      </div>
     </>
   );
 });
