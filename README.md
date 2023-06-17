@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+## Demo link 
+[DEMO](https://apetrinko.github.io/list-of-jokes/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+## Stack of technologies I used:
+<p align="left">
+  <a href="https://react.dev/" target="_blank" rel="noreferrer">
+    <img src="https://w7.pngwing.com/pngs/403/269/png-transparent-react-react-native-logos-brands-in-colors-icon-thumbnail.png" align="center" alt="react" width="40" height="40"/>
+  </a>
+  <a href="https://redux-toolkit.js.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://markup-ua.com/blog/wp-content/uploads/2022/12/redux.jpg" align="center" alt="redux" width="auto" height="40"/> 
+  </a> 
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" align="center" alt="javascript" width="40" height="40"/> 
+  </a> 
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/240px-CSS3_logo.svg.png" align="center" alt="css" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer"> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png" align="center" alt="html" width="40" height="40"/> 
+  </a> 
+</p>
+<ul>
+<li>React</li>
+<li>Redux Toolkit</li>
+<li>TypeScript</li>
+<li>CSS</li>
+<li>HTML</li>
+</ul>
 
-## Available Scripts
+## To run the project locally, follow these steps:
 
-In the project directory, you can run:
+<ul>
+<li>Clone the repository to your local machine</li>
+<li>Open the project</li>
+<li>Install the necessary packages</li>
+</ul>
 
-### `npm start`
+```sh
+npm install
+```
+<ul>
+<li>Compile and Hot-Reload for Development</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```sh
+npm start
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<ul>
+<li>Deploy project</li>
+</ul>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm run deploy
+```
