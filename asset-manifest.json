@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/list-of-jokes/static/css/main.df36230f.css",
-    "main.js": "/list-of-jokes/static/js/main.82c44782.js",
+    "main.css": "/list-of-jokes/static/css/main.e19c4dda.css",
+    "main.js": "/list-of-jokes/static/js/main.59eb6c44.js",
     "index.html": "/list-of-jokes/index.html",
-    "main.df36230f.css.map": "/list-of-jokes/static/css/main.df36230f.css.map",
-    "main.82c44782.js.map": "/list-of-jokes/static/js/main.82c44782.js.map"
+    "main.e19c4dda.css.map": "/list-of-jokes/static/css/main.e19c4dda.css.map",
+    "main.59eb6c44.js.map": "/list-of-jokes/static/js/main.59eb6c44.js.map"
   },
   "entrypoints": [
-    "static/css/main.df36230f.css",
-    "static/js/main.82c44782.js"
+    "static/css/main.e19c4dda.css",
+    "static/js/main.59eb6c44.js"
   ]
 }
